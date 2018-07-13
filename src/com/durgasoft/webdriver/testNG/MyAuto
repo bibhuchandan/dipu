@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.durgasoft.webdriver.test.Test1"/>
+      <class name="com.durgasoft.webdriver.test.Test2"/>
+      <class name="com.durgasoft.webdriver.test.Test3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="firefoxTest">
+  <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.durgasoft.parallerexecution.ParallelExecution1"/>
+      <class name="com.durgasoft.parallerexecution.ParallelExecution2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="chromeTest">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="com.durgasoft.parallerexecution.ParallelExecution1"/>
+      <class name="com.durgasoft.parallerexecution.ParallelExecution2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="firefoxTest(failed)">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.durgasoft.parallerexecution.ParallelExecution1">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tc_1"/>
+        </methods>
+      </class> <!-- com.durgasoft.parallerexecution.ParallelExecution1 -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
